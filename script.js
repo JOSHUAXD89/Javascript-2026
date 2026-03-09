@@ -1,0 +1,1 @@
+console.log("Soy JS desde archivom externo")
