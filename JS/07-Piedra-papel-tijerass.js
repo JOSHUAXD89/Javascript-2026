@@ -63,5 +63,15 @@ let resultado;
 if ( opcionjugador === opcionComputadora) {
     resultado = `Empate, ambos eligieron ${opcionjugador}`;
 }   else if (opcionjugador === 'piedra' && opcionComputadora === 'tijera') {
-    reultado =  `Ganaste, piedra vence a tijera. `
+    reultado =  `Ganaste, piedra vence a tijera.`;
+}   else if (opcionjugador === 'papel' && opcionComputadora ===  'piedra') {
+    resultado = `Ganaste, papel vence a piedra.`;
+}   else if (opcionjugador === 'Tijera' && opcionComputadora === 'papel') {
+    resultado = `Ganaste, tijers vence a papel.`;
+}   else {
+    resultado = `JAAJA PERDEDOR`;
 }
+
+// 6- Mostraremos el resultado
+
+console.log(resultado);
