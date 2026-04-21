@@ -40,3 +40,45 @@ indexf() > Devuelve el índice del primer elemenyo que coincida con el valor
 especificado o regresa -1 si no encuentra nadota.
 
 */
+
+let películas = ["Chainsaw man reze arc", "Michael", "Spiderman across the spiderverse"];
+
+console.log(películas);
+
+películas.push("F1", "The Mitchels vs The Machines", "Sonic 3");
+
+console.log(películas);
+
+let ultimaPelicula = películas.pop();
+
+console.log(películas);
+console.log("La última película que vi fue: " + ultimaPelicula);
+
+console.log(películas);
+
+let primerPelicula = películas.shift();
+
+console.log(películas);
+console.log("La primer película que vi fue " + primerPelicula);
+
+películas.unshift("Fnaf 1");
+
+console.log(películas);
+
+console.log( películas.indexOF("Michael"));
+
+/* 
+
+Iteración de arreglos
+
+El acceso a los datos a través de un bucle o ciclo.
+
+*/
+
+let antojitos = ["Papas de gajo", "Elote", "Coca"];
+
+antojitos.push("No te alcanza? ponle magna", "Que siga la corrupción");
+
+for ( i=0 ; i < antojitos.length ; i++ ) {
+    console.log("Se me antojaron unas " + antojitos[i] );
+}
